@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LoginController: UIViewController {
+    @IBOutlet weak var emailTxt: RoundedTextFied!
+    
+    @IBOutlet weak var pwdTxt: RoundedTextFied!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
